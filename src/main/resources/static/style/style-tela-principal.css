@@ -1,0 +1,92 @@
+/* =================================================================== */
+/* ESTILOS BASE */
+/* =================================================================== */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, .offcanvas-title {
+    font-weight: 700;
+}
+
+.text-secondary {
+    font-weight: 300 !important;
+}
+
+/* ------------------------------------------------------------------- */
+/* 1. NAVBAR TOGGLER (Botão) */
+/* ------------------------------------------------------------------- */
+.navbar-toggler {
+    transition: all 0.2s ease-in-out; 
+}
+
+.navbar-toggler:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+}
+
+/* ------------------------------------------------------------------- */
+/* 2. BOTÕES DO MENU */
+/* ------------------------------------------------------------------- */
+.offcanvas-body .btn-success {
+    border: 1px solid rgba(255, 255, 255, 0.5); 
+    border-radius: 0.375rem; 
+    transition: all 0.2s ease-in-out; 
+}
+
+.offcanvas-body .btn-success:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ------------------------------------------------------------------- */
+/* 3. DROPDOWN DO USUÁRIO */
+/* ------------------------------------------------------------------- */
+.dropdown-menu-dark li {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.dropdown-menu {
+    padding: 0 !important;
+    background-color: #ffffff !important;
+    border: 1px solid #dee2e6;
+}
+
+/* Botão Sair (Mantém verde/vermelho fixo) */
+#btn-sair {
+    background-color: #198754 !important;
+    color: white !important;
+    text-align: center;
+    border-radius: 0.375rem !important; 
+}
+
+#btn-sair:hover {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    color: white !important;
+}
+
+/* ------------------------------------------------------------------- */
+/* 4. CORES E FUNDOS (LIMPEZA) */
+/* ------------------------------------------------------------------- */
+/* REMOVI AS REGRAS QUE FORÇAVAM PRETO AQUI. 
+   AGORA QUEM MANDA É O JAVASCRIPT OU O HTML INLINE. 
+*/
+
+.navbar-icons-centered {
+    position: absolute; 
+    left: 50%;          
+    top: 50%;           
+    transform: translate(-50%, -50%);
+    pointer-events: none; 
+}
+
+.navbar-icons-centered img {
+     height: 70px; 
+}
+
+#user-display-role {
+    color: #000000 !important;
+    font-weight: 700 !important;
+}

@@ -1,0 +1,22 @@
+{
+  "ODONTOLOGIA" : {
+    "sistema" : "ODONTOLOGIA",
+    "logoBase64" : null,
+    "colorPrimary" : "#5fb3d3",
+    "colorSecondary" : "#4a90a4",
+    "colorText" : "#1f2937",
+    "fontFamily" : "'Inter', sans-serif",
+    "fontSize" : "16px",
+    "language" : "pt"
+  },
+  "FISIOTERAPIA" : {
+    "sistema" : "FISIOTERAPIA",
+    "logoBase64" : null,
+    "colorPrimary" : "#0f66c2",
+    "colorSecondary" : "#65726c",
+    "colorText" : "#ffffff",
+    "fontFamily" : "'Poppins', sans-serif",
+    "fontSize" : "16px",
+    "language" : "pt"
+  }
+}
