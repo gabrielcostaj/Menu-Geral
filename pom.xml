@@ -13,11 +13,11 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>biomedicina</name>
 	<description>API RESTful para o sistema do curso de Biomedicina da "Fasiclin"</description>
-	<url>https://github.com/matheusassuncaoo/fasiclin-estoque</url>
+	<url>https://github.com/gabrielcostaj/Menu-Geral.git</url>
 	<licenses>
 		<license>
 			<name>MIT License</name>
-			<url>https://github.com/matheusassuncaoo/fasiclin-estoque/blob/main/LICENSE</url>
+			<url>https://github.com/gabrielcostaj/Menu-Geral.git/blob/main/LICENSE</url>
 		</license>
 	</licenses>
 	<developers>
@@ -26,7 +26,7 @@
 		</developer>
 	</developers>
 	<scm>
-		<url>https://github.com/matheusassuncaoo/fasiclin-estoque</url>
+		<url>https://github.com/gabrielcostaj/Menu-Geral.git</url>
 	</scm>
 	<properties>
 		<java.version>21</java.version>
