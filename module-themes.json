@@ -12,8 +12,8 @@
   "FISIOTERAPIA" : {
     "sistema" : "FISIOTERAPIA",
     "logoBase64" : null,
-    "colorPrimary" : "#0f66c2",
-    "colorSecondary" : "#65726c",
+    "colorPrimary" : "#056fa3",
+    "colorSecondary" : "#485b52",
     "colorText" : "#ffffff",
     "fontFamily" : "'Poppins', sans-serif",
     "fontSize" : "16px",
